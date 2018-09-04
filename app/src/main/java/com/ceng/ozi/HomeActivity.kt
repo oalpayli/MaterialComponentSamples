@@ -15,7 +15,7 @@ class HomeActivity : AppCompatActivity(), ItemClickSupport.OnItemClickListener {
     lateinit var recyclerView: RecyclerView
 
     val array: MutableList<String> = mutableListOf("Bottom App Bar", "Bottom Navigation", "Bottom Sheets", "Chips", "Collapsing Toolbars", "Float Action Button", "Material Button", "Modal Bottom Sheets",
-            "Navigation Views", "Snackbars", "Tab Layout", "Text Fields", "Top App Bar")
+            "Navigation Views", "Snackbars", "Tab Layout", "Text Fields", "Top App Bar", "Extended Fab Button")
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
