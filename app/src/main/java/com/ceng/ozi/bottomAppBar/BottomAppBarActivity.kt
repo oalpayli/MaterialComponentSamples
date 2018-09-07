@@ -52,7 +52,14 @@ class BottomAppBarActivity: AppCompatActivity(){
     }
 
     private fun displayMaterialSnackBar(text: String) {
-        val marginSide = 0
+        val snackbar = Snackbar.make(
+                fabButton,
+                text,
+                Snackbar.LENGTH_LONG
+        ).setAction("UNDO") {  }
+        snackbar.show()
+
+        /*val marginSide = 0
         val marginBottom = 550
         val snackbar = Snackbar.make(
                 fabButton,
@@ -73,7 +80,7 @@ class BottomAppBarActivity: AppCompatActivity(){
         )
 
         snackbarView.layoutParams = params
-        snackbar.show()
+        snackbar.show()*/
     }
 
 }

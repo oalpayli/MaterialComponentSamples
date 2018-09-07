@@ -23,7 +23,7 @@ class HomeListAdapter(val items: MutableList<String>, val context: Context): Rec
     }
 
     class ViewHolder (view: View): RecyclerView.ViewHolder(view){
-        val textView = view.textView_RecyclerViewHomeListItemRow
+        val textView = view.textView_RecyclerViewHomeListItemRow!!
     }
 
 }
